@@ -1,14 +1,13 @@
 package Model;
 
 public class ContatoDTO {
-	
-private String nome;
-	
+
+	private String nome;
+
 	private String dDD;
-	
+
 	private String numero;
-	
-	
+
 	public ContatoDTO(String nome, String dDD, String numero) {
 		this.nome = nome;
 		this.dDD = dDD;

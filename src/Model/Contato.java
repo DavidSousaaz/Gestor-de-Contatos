@@ -1,16 +1,13 @@
 package Model;
 
-import java.util.Objects;
-
 public class Contato {
-	
+
 	private String nome;
-	
+
 	private String dDD;
-	
+
 	private String numero;
-	
-	
+
 	public Contato(String nome, String dDD, String numero) {
 		this.nome = nome;
 		this.dDD = dDD;
@@ -46,15 +43,4 @@ public class Contato {
 		return "Contato [nome=" + nome + ", dDD=" + dDD + ", numero=" + numero + "]";
 	}
 
-
-	public boolean equals(Contato o) {
-		if(this.numero.equalsIgnoreCase(o.getNumero())) {
-			return true;
-		}
-		
-		return false;
-	}
-	
-	
-	
 }
